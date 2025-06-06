@@ -1,0 +1,17 @@
+{
+  "name": "vault-note-blocks",
+  "version": "0.1.0",
+  "description": "Manage reusable content blocks for Obsidian",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "obsidian": "^1.0.0",
+    "rollup": "^2.79.1",
+    "tslib": "^2.4.0",
+    "typescript": "^5.0.0",
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup-plugin-css-only": "^3.1.0"
+  }
+}

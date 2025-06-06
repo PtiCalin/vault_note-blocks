@@ -1,0 +1,10 @@
+{
+  "id": "vault-note-blocks",
+  "name": "Vault Note Blocks",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Manage reusable content blocks for your notes.",
+  "author": "PtiCalin",
+  "authorUrl": "https://github.com/PtiCalin",
+  "isDesktopOnly": false
+}
