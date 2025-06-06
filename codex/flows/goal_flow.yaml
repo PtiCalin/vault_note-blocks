@@ -1,0 +1,8 @@
+title: "Goal Planning Flow"
+steps:
+  - block: goal
+    prompt: "Define your goal"
+  - block: habit
+    prompt: "Add a habit to support your goal?"
+  - block: review
+    prompt: "Would you like to plan your first review?"
