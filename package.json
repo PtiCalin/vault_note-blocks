@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Manage reusable content blocks for Obsidian",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release": "npm run build && node release.js"
   },
   "devDependencies": {
     "obsidian": "^1.0.0",
