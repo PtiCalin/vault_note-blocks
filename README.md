@@ -29,3 +29,5 @@ If you want this plugin listed in Obsidian's community catalog:
 4. Open a pull request describing your plugin and include the repository URL `PtiCalin/vault_note-blocks`.
 
 Your release must contain a `manifest.json` matching the plugin `id`, `name`, and `version` found in this repo.
+
+Compatibility information is tracked in `versions.json`. Remember to update this file along with `manifest.json` whenever you cut a new release.
