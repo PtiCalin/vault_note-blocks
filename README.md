@@ -10,10 +10,21 @@ This plugin provides a simple browser to insert predefined blocks stored in `cod
 - Insert blocks into the current editor
 - Placeholder logic for smart suggestions
 
-## Development
+## Workspace Setup
+
+Install dependencies with the provided `setup.sh` script. Codex runs this script automatically when the workspace starts.
 
 ```bash
-npm install
+./setup.sh
+```
+
+If the workspace does not already contain the required packages, run the agent with `--internet` to allow `npm install` to fetch them.
+
+## Development
+
+After installing dependencies, build the plugin:
+
+```bash
 npm run build
 ```
 
